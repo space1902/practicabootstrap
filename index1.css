@@ -1,0 +1,78 @@
+#header img{
+	width: 80px;
+}
+#main .carousel-inner img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#carousel {
+	position: relative;
+}
+
+#carousel .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}
+#carousel .overlay .container,
+#carousel .overlay .row {
+	height:70%;
+}
+
+#info {
+	background: linear-gradient(90deg, #1c3643,#273b47 25%,#1e5372);
+	color:white;
+}
+#info img{
+	max-width: 100%;
+}
+
+.btn-platzi {
+	background-color:#97c93e;
+	color:white;
+}
+.btn-platzi:hover{
+	background-color:hsl(82, 54%, 37%);
+}
+
+.dropdown-item{
+	width: 220px;
+	height: 80px;
+	color: #97c93e ;
+}
+#perro{
+	width: 220px;
+	height: 30px;
+	color: red;
+}
+
+
+footer{
+	background: linear-gradient(90deg, #1c3643,#273b47 25%,#1e5372);
+}
+
+
+
+footer a{
+	color: white;
+}
+@media(max-width:560px){
+	footer .row{
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+	height: 30vh;
+	width:50vw;
+	
+	}
+	footer .row a{
+		margin-left: 10px;
+		margin-top: 100px;
+		text-justify:distribute-all-lines;
+		}
+}
